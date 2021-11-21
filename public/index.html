@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="bg_text" id="bg_text">
+        <h1>Java Script Assignments</h1>
+        <button onclick="color('bg')">Background Color Change</button>
+        <button onclick="color('text')">Text Color Change</button>
+    </div>
+
+    <div class="img">
+        <button onclick="imgSize('show')">Show Image</button>
+        <button onclick="imgSize('big')">Big Size</button>
+        <button onclick="imgSize('small')">Small Size</button>
+        <button onclick="imgSize('hide')">Hide</button><br><br>
+        <img id="spiderMan" src="./images/spiderman.jpg" alt="">
+    </div>
+
+    <div class="bulb">
+        <img id="bulb" onmouseover="bulb('on')" onmouseout="bulb('off')" src="./images/bulb-Off.jpg" alt="">
+    </div>
+
+
+    <div class="paras">
+        <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis culpa nisi excepturi cum quos, ratione doloribus? Quos unde provident, labore omnis laborum minus corrupti aperiam sed, hic quod modi suscipit!</p>
+        <p class="para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium quibusdam optio eveniet culpa veniam excepturi voluptatem sequi odit cumque possimus. Rem voluptates beatae soluta facere molestias quaerat quo est perspiciatis.</p>
+        <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur culpa itaque quidem delectus officiis veritatis placeat sapiente nesciunt ratione, facilis soluta veniam. Sit, laboriosam obcaecati ut possimus dicta assumenda error.</p>
+        <p class="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex animi perferendis alias modi quaerat accusantium facere cum, rerum non nulla. Dolorem voluptas architecto tenetur labore magnam at earum laborum necessitatibus!</p>
+    <button onclick="changeColor()">Change Color</button>
+    
+    </div>
+    
+</body>
+<script src="app.js" ></script>
+</html>

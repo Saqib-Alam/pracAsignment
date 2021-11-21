@@ -1,0 +1,45 @@
+.bg_text{
+    border: 1px solid grey;
+    text-align: center;
+}
+
+.bg_text button{
+    width: 180px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.bg_text button:hover{
+    background-color: grey;
+    color: #fff;
+}
+
+.img{
+    border: 1px solid grey;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.img button{
+    width: 180px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.bulb{
+    border: 1px solid grey;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.paras{
+    border: 1px solid grey;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.paras button{
+    width: 180px;
+    height: 40px;
+    border-radius: 5px;
+}
